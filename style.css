@@ -361,11 +361,11 @@ img {
 }
 
 .portfolio-card:nth-child(1) {
-  background-image: url(assets/booking-app.jpg);
+  background-image: url(assets/Weatherapp.jpg);
 }
 
 .portfolio-card:nth-child(2) {
-  background-image: url(assets/Weatherapp.jpg);
+  background-image: url(assets/booking-app.jpg);
 }
 
 .portfolio-card:nth-child(3) {
