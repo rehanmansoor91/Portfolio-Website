@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- ---Navbar--- -->
+  <header class="bg-grey">
+    <nav class="navbar">
+      <div class="logo">RM.</div>
+      <ul class="navlist" id="navlist">
+        <li>
+          <a href="#" class="active navlinks">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="navlinks">Myintro</a>
+        </li>
+        <li>
+          <a href="#services" class="navlinks">Services</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="navlinks">Portfolio</a>
+        </li>
+        <!-- <li>
+                    <a href="#" class="navlinks">Testimonial</a>
+                </li> -->
+        <li>
+          <a href="#contact" class="primary-btn">Hire Me</a>
+        </li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-----Hero Section--- -->
+    <section class="hero-section bg-grey">
+      <div class="container">
+        <div class="row-container">
+          <div class="content">
+            <h3>Hello!</h3>
+            <h1>I'm Rehan Mansoor</h1>
+            <!-- <div>Web Developer</div> -->
+            <span id="element"></span>
+            <p>
+              Full stack developer specializing in creating fully functional
+              and visually appealing websites from the ground up. With
+              extensive experience across all stages of website design and
+              development, I bring a holistic approach to crafting digital
+              solutions that are both user-friendly and technically robust.
+              Explore my portfolio to see the range of projects I've
+              completed, showcasing my expertise in modern web technologies
+              and design practices.
+            </p>
+            <div class="actions">
+              <a href="assets/Rehan Mansoor.pdf" class="primary-btn" download>Download CV</a>
+              <a href="#contact" class="primary-btn" data-type="inverted-btn">Contact</a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="assets/img_1.png" alt="profile" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---skills section--- -->
+    <section class="section bg-light-pink">
+      <div class="container">
+        <div class="column-container">
+          <div class="content">
+            <h1>My Skills</h1>
+          </div>
+          <div class="skill-container">
+            <div class="skill-bar-container">
+              <div class="info">
+                <small>HTML</small>
+                <small>80%</small>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar html"></div>
+              </div>
+            </div>
+            <div class="skill-bar-container">
+              <div class="info">
+                <small>Node.js</small>
+                <small>85%</small>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar bootstrap"></div>
+              </div>
+            </div>
+            <div class="skill-bar-container">
+              <div class="info">
+                <small>CSS</small>
+                <small>78%</small>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar css"></div>
+              </div>
+            </div>
+            <div class="skill-bar-container">
+              <div class="info">
+                <small>React</small>
+                <small>70%</small>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar react"></div>
+              </div>
+            </div>
+            <div class="skill-bar-container">
+              <div class="info">
+                <small>JavaScript</small>
+                <small>65%</small>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar javascript"></div>
+              </div>
+            </div>
+            <div class="skill-bar-container">
+              <div class="info">
+                <small>MongoDB</small>
+                <small>90%</small>
+              </div>
+              <div class="skill-level">
+                <div class="skill-bar wordpress"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---aboutme section--- -->
+    <section id="about" class="section bg-white">
+      <div class="container">
+        <div class="row-container">
+          <div class="image-container" data-type="inverted-img">
+            <img src="assets/img_1.png" alt="profile" />
+          </div>
+          <div class="content">
+            <h3>My Intro</h3>
+            <h1>About Me</h1>
+            <p>
+              Hello! I'm a dedicated full stack developer with a passion for
+              building dynamic and responsive websites. I've honed my skills
+              across the entire spectrum of website creation—from front-end
+              design to back-end functionality.
+            </p>
+            <ul class="information">
+              <li class="detail">
+                <i class="fa-solid fa-user fill-pink"></i>
+                Name &nbsp; &nbsp : &nbsp; &nbsp Rehan Mansoor
+              </li>
+              <li class="detail">
+                <i class="fa-solid fa-phone fill-pink"></i>
+                Phone &nbsp; &nbsp : &nbsp; &nbsp 914-206-6081
+              </li>
+              <li class="detail">
+                <i class="fa-solid fa-envelope fill-pink"></i>
+                E-mail &nbsp; &nbsp : &nbsp; &nbsp
+                rehanmansoor786786@gmail.com
+              </li>
+            </ul>
+            <h4>My Interest</h4>
+            <ul class="interest">
+              <li><i class="fa-solid fa-futbol fill-pink"></i>Football</li>
+              <li><i class="fa-solid fa-music fill-pink"></i>Music</li>
+              <li><i class="fa-solid fa-palette fill-pink"></i>Art</li>
+              <li><i class="fa-solid fa-map fill-pink"></i>Travel</li>
+              <li><i class="fa-solid fa-book-open fill-pink"></i>Reading</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---services--- -->
+    <section id="services" class="section bg-grey">
+      <div class="container">
+        <div class="column-container">
+          <div class="content">
+            <h3>Services</h3>
+            <h1>What I Offer</h1>
+          </div>
+          <div class="grid-card-container">
+            <div class="card">
+              <i class="fa-solid fa-desktop fill-white" data-type="card-icons"></i>
+              <h4>Full Stack Web Designing</h4>
+              <p class="para">
+                With over 2 years of project-making experience, I thrive in solving complex coding challenges,
+                implementing best practices in design, and delivering tailored digital solutions. My continuous pursuit
+                of learning and ability to adapt to new technologies empower me to stay at the cutting edge of the
+                development field.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-lightbulb fill-white" data-type="card-icons"></i>
+              <h4>Frontend Desining</h4>
+              <p class="para">
+                With an eye for design and a knack for translating complex concepts into interactive interfaces, I’ve
+                worked on various projects, including building dynamic websites from scratch and creating feature-rich
+                applications.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-coins fill-white" data-type="card-icons"></i>
+              <h4>Backend Designing</h4> 
+              <p class="para">
+                From handling complex data structures to ensuring smooth communication between the front-end and the
+                server, I am proficient in creating and managing RESTful APIs, working with databases like MySQL,
+                MongoDB, and PostgreSQL, and implementing robust authentication and security measures.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---portfolio section--- -->
+    <section id="portfolio" class="section bg-white">
+      <div class="container">
+        <div class="column-container">
+          <div class="content">
+            <h3>My Portfolio</h3>
+            <h1>recent Work</h1>
+          </div>
+          <div class="grid-card-container"> 
+            <div class="portfolio-card">
+              <a target= "_blank" href="https://weather-o55pvxsws-rehanmansoor786786-gmailcoms-projects.vercel.app/" class="primary-btn demo">WeatherApp</a>
+            </div>
+            <div class="portfolio-card">
+              <a targt="_blank" href="#" class="primary-btn demo">TourismApp</a>
+            </div>
+           
+            <div class="portfolio-card">
+              <a target="_blank" href="https://rehanmansoor91.github.io/Netflix.com/" class="primary-btn demo">NetflixClone</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---work Together section--- -->
+
+    <section class="project-section bg-pink">
+      <div class="container">
+        <div class="project-content">
+          <h2 class="fill-white">Let's work together on your next project</h2>
+          <div class="fill-light-pink para">
+            Feel free to reach out if you're looking for
+            <div>A full stack web developer for your next project</div>
+            <div>A front-end expert to deliver responsive, user-friendly designs</div>
+            <div>A back-end developer to build secure, efficient server-side applications</div>
+            <div>A team player to contribute to your development team</div>
+            </p>
+            <a href="#contact" class="primary-btn" data-type="white-btn">Contact</a>
+          </div>
+        </div>
+    </section>
+
+    <!-- ---Contact Us Section--- -->
+
+    <section id="contact" class="section bg-white">
+      <div class="container">
+        <div class="column-container">
+          <div class="content">
+            <h3>Contact US</h3>
+            <h1>Get In Touch</h1>
+          </div>
+          <form action="/submit-form" method="post" class="form">
+            <input type="text" name="username" placeholder="Username" required />
+            <input type="text" name="phone" placeholder="Phone Number" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+            <textarea name="message" placeholder="Type your message here" rows="6" required></textarea>
+            <input type="submit" value="Send Message" class="primary-btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer", "Web Designer"],
+      typeSpeed: 50,
+      backSpeed: 50, // Speed of backspacing
+      loop: true,
+    });
+  </script>
+
+  <!-- ---footer section--- -->
+
+  <footer class="footer-section bg-black">
+    <div class="container">
+      <p class="para fill-white">
+        Copyright &copy;2024 All right are reserved by Rehan Mansoor
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
